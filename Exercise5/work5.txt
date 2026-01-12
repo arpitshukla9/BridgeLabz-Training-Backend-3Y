@@ -1,0 +1,16 @@
+git init
+touch file1.txt file2.txt
+git add .
+git commit -m "Add multiple files"
+
+touch .gitignore
+echo "node_modules/" >> .gitignore
+git add .gitignore
+git commit -m "Add gitignore file"
+
+git stash
+git stash pop
+
+git tag -a v1.0 -m "First release"
+git push origin main
+git push origin v1.0
