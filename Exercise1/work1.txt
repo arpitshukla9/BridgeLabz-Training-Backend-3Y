@@ -1,0 +1,14 @@
+mkdir git-practice
+cd git-practice
+git init
+
+ni README.md
+git status
+git add README.md
+git commit -m "Initial commit with README"
+
+echo "This is my Git practice repository" >> README.md
+git add README.md
+git commit -m "Update README file"
+
+git log
