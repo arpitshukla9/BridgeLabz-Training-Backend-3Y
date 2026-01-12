@@ -1,0 +1,12 @@
+# Fork repository on GitHub manually
+
+git clone https://github.com/your-username/sample-repo.git
+cd sample-repo
+
+git checkout -b my-feature-branch
+echo "My contribution" >> README.md
+git add README.md
+git commit -m "My contribution"
+
+git push origin my-feature-branch
+# Create Pull Request on GitHub
